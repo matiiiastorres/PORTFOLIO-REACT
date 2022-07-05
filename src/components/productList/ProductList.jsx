@@ -6,10 +6,10 @@ const ProductList = () => {
   return (
     <div className="pl" id="productlist">
       <div className="pl-texts">
-        <h1 className="pl-title"> Create & inspire.its Matiii </h1>
+        <h1 className="pl-title"> design & style </h1>
         <p className="pl-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          dignissimos ad beatae odit, quod natus.
+        The design of the pages is futuristic and I use the latest technologies
+          to make the components reusable and the pages more dynamic.
         </p>
       </div>
 
