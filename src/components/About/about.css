@@ -1,0 +1,276 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+
+.a-right{
+
+    flex: 1;
+    margin-bottom: 90px;
+}
+
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(44, 43, 43);
+
+
+}
+.a-card{
+    width: 70%;
+    height: 70vh;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+
+}
+.a-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+.a-img:hover {
+    filter: grayscale(0);
+}
+.a-award-img{
+    width: 220px;
+    height: 120px;
+
+}
+.a-title{
+    font-weight: bold;
+    overflow: hidden;
+    margin-top: 56px;
+    
+
+     
+}
+.a-sub{
+    margin: 20px 20px;
+}
+.a-desc{
+    font-weight: 300;
+}
+.a-award{
+    margin-top: 50px;
+    margin: 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.a-award-1{
+  margin-top: 50px;
+  margin: 25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.a-award-texts{
+    width: 60%;
+}
+.a-award-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+  .img-modal{
+    width: 220px;
+    height: 120px;
+    
+  }
+
+
+  /* Display the modal when targeted */
+  .modal:target {
+    display:table;
+    position:fixed;
+  }
+  
+  /* The modal's background */
+  .modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  /* The modal container */
+  .modal-container {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 50px;
+  }
+  
+  .modal-content > img {
+    width: 100%;
+    
+    
+    
+  }
+  
+  .modal-container .modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+    font-family: "Prata", serif;
+    
+    -webkit-animation-name: modal-animation;
+    -webkit-animation-duration: 0.7s;
+    animation-name: modal-animation;
+    animation-duration: 0.7s;
+  }
+  
+  @keyframes modal-animation {
+    0% {
+      bottom: -100px;
+      opacity: 0;
+      transform:matrix3d(0deg);
+    }
+    100% {
+      bottom: 0px;
+      opacity: 1;
+      transform: matrix3d(720deg);
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .modal-container .modal-content {
+      font-size: 50%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  
+  .closebtn:hover,
+  .closebtn:focus {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .type-writer-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 70px;
+        height: 100%;
+
+    }
+    .a-left { 
+        width: 100%;
+        
+    }
+    .a-right{
+      overflow: hidden;
+     
+    }
+    .a-title{
+      margin-top: 0px;
+    }
+    .a-card {
+        height: 35vh;
+        overflow: hidden;
+       
+    }
+    .a-desc{
+      display: none;
+    }
+    .a-img{
+        filter: grayscale(100%);
+        transition: filter 0.5s;
+        
+    }
+    
+    .a-img:hover {
+        filter: grayscale(0);
+    }
+    .a-award-1{
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .a-award{
+      display: none;
+    }
+
+    .modal-container {
+      display: table-cell;
+      vertical-align: top;
+      padding-top: 200px;
+    }
+
+    .a-card.bg, .a-award-texts {
+        display: none;
+    }
+    .a-right{
+        padding: 0px;
+    }
+}
