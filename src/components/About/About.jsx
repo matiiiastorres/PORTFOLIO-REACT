@@ -10,7 +10,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://portfoliomatiastorres.netlify.app/images/images/ZZZ.jpg"
+            src="https://matias-torres-portfolio-react.netlify.app/static/media/WhatsApp_Image_2022-06-21_at_4.01.15_PM-removebg-preview.4a78eb0f83525828e5a5.png"
             alt=""
             className="a-img"
           />
