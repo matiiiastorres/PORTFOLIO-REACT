@@ -56,7 +56,7 @@ const About = () => {
                 <i class="fa fa-long-arrow-left"></i> Back
               </a>
 
-              <img src={titulo} className="imagen-rolling" alt="" />
+              <img src="https://certs.rollingcodeschool.com/bWF0aWlpYXN0b3JyZXNAZ21haWwuY29t-1660166485475_1.png  "className="imagen-rolling" alt="" />
             </div>
           </div>
         </div>
