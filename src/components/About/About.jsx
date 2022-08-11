@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import titulo from "../../img/titulo rolling.jpg";
+import titulo from "../../img/titulo rolling.png";
 import argentina from "../../img/Opera Instantánea_2022-06-11_170949_mumuki.io.png";
 
 const About = () => {
@@ -39,7 +39,7 @@ const About = () => {
 
         <div className="a-award">
           <a href="#id01">
-            <img className="img-modal" alt="" src="https://mumuki.io/argentina-programa/certificates/verify/hIv3o4WnETD3cZzE" />
+            <img className="img-modal" alt="" src={argentina} />
           </a>
           <div className="a-award-texts">
             <p className="a-award-title">Certificate Argentina Program</p>
@@ -64,7 +64,7 @@ const About = () => {
         <div id="id01" className="modal">
           <div className="modal-container">
             <div className="modal-content">
-              <a href="/#" className="closebtn">
+              <a href="/#about" className="closebtn">
                 <i className="fa fa-long-arrow-left"></i> Back
               </a>
 
