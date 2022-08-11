@@ -256,6 +256,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin: -15px 25px;
     }
     .a-award{
       display: none;
