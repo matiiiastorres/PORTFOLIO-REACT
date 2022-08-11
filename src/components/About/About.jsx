@@ -68,7 +68,7 @@ const About = () => {
                 <i className="fa fa-long-arrow-left"></i> Back
               </a>
 
-              <img src="https://mumuki.io/argentina-programa/certificates/verify/hIv3o4WnETD3cZzE"  className="imagen-argentina" alt="" />
+              <img src={argentina}  className="imagen-argentina" alt="" />
             </div>
           </div>
         </div>
