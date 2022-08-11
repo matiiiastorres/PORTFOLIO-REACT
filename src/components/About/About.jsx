@@ -56,7 +56,7 @@ const About = () => {
                 <i class="fa fa-long-arrow-left"></i> Back
               </a>
 
-              <img src="https://certs.rollingcodeschool.com/bWF0aWlpYXN0b3JyZXNAZ21haWwuY29t-1660166485475_1.png  "className="imagen-rolling" alt="" />
+              <img src={titulo} className="imagen-rolling" alt="" />
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ const About = () => {
                 <i className="fa fa-long-arrow-left"></i> Back
               </a>
 
-              <img src="https://mumuki.io/argentina-programa/certificates/verify/hIv3o4WnETD3cZzE" className="imagen-argentina" alt="" />
+              <img src="https://mumuki.io/argentina-programa/certificates/verify/hIv3o4WnETD3cZzE"  className="imagen-argentina" alt="" />
             </div>
           </div>
         </div>
