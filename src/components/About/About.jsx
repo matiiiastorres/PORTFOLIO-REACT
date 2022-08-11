@@ -39,7 +39,7 @@ const About = () => {
 
         <div className="a-award">
           <a href="#id01">
-            <img className="img-modal" alt="" src={argentina} />
+            <img className="img-modal" alt="" src="https://mumuki.io/argentina-programa/certificates/verify/hIv3o4WnETD3cZzE" />
           </a>
           <div className="a-award-texts">
             <p className="a-award-title">Certificate Argentina Program</p>
@@ -68,7 +68,7 @@ const About = () => {
                 <i className="fa fa-long-arrow-left"></i> Back
               </a>
 
-              <img src={argentina} className="imagen-argentina" alt="" />
+              <img src="https://mumuki.io/argentina-programa/certificates/verify/hIv3o4WnETD3cZzE" className="imagen-argentina" alt="" />
             </div>
           </div>
         </div>
