@@ -10,7 +10,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://media-exp2.licdn.com/dms/image/C4E03AQHAaBF9B4A2fA/profile-displayphoto-shrink_800_800/0/1644495421239?e=1660176000&v=beta&t=nuqG4ur_FEyVQBrFKZUpgxN_u02n7X6YOkbwl89xhNA"
+            src="https://portfoliomatiastorres.netlify.app/images/images/ZZZ.jpg"
             alt=""
             className="a-img"
           />
@@ -27,7 +27,7 @@ const About = () => {
 
         <div className="a-award-1">
           <a href="#id02">
-            <img className="img-modal" alt="Logo" src={titulo} />
+            <img className="img-modal" alt="Logo" src="https://certs.rollingcodeschool.com/bWF0aWlpYXN0b3JyZXNAZ21haWwuY29t-1660166485475_1.png "/>
           </a>
           <div className="a-award-texts">
             <p className="a-award-title">Rolling Code School Certificate</p>
