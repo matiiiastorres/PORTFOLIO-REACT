@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import yo from "../../img/iconos/WhatsApp_Image_2022-06-21_at_4.01.15_PM-removebg-preview.png";
+import yo from "../../img/iconos/mati-hd.png";
 
 
 
